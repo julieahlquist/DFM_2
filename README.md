@@ -13,8 +13,7 @@ This is a note taking application for the course 'Den Friska Människan 2 (The H
 ## 1. Objectives
  Primarily it intends to only let the admin(s) add content to the website, but others are free to read it. 
 
-User Stories
-----
+### Link to the [project on Pivotal Tracker](https://www.pivotaltracker.com/n/projects/2380154)
 
 ## 2. Project setup
 
