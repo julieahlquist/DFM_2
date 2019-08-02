@@ -3,7 +3,7 @@ When("I visit the site") do
 end
 
 Given("the following notes exists") do |table|
-  table.hashes.each do |notes|
-    Note.create!(article)
+  table.hashes.each do |note|
+    Note.create!(note)
   end
 end

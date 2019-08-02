@@ -1,2 +1,4 @@
-<p> Anatomy - Bones </p>
-<p> The human skeleton have 206 bones </p>
+<% @notes.each do |note| %>
+  <p><%= note.title %></p>
+  <p><%= note.content %></p>
+<% end %>
