@@ -7,3 +7,7 @@ Given("the following notes exists") do |table|
     Note.create!(note)
   end
 end
+
+When("I click on {string}") do |string|
+  first(:link, string).click
+end

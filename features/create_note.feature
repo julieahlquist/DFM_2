@@ -5,7 +5,7 @@ Feature: Create notes
 
   Background:
     Given I visit the site
-    When I click "New Note" link
+    And I click 'New Note'
 
 Scenario: Successfully create a note
     When I fill in "Title" with "Biochemistry - Lipid metabolism"
