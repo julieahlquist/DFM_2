@@ -1,6 +1,6 @@
 <h1>Create Note </h1>
 
-<%= form_with scope: :article, url: notes_path, local: true do |form| %>
+<%= form_with scope: :note, url: notes_path, local: true do |form| %>
   <p>
     <%= form.label :title %>
     <%= form.text_field :title, placeholder: 'Title' %>
