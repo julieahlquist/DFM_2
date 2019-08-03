@@ -1,4 +1,19 @@
-<% @notes.each do |note| %>
-  <p><%= note.title %></p>
-  <p><%= note.content %></p>
-<% end %>
+<h1>New Note</h1>
+
+<%= link_to 'New Note', new_note_path %>
+
+<p>
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+  </tr>
+
+  <tr>
+    <% @notes.each do |note| %>
+    <p><%= note.title %></p>
+    <p><%= note.content %></p>
+    <td><%= link_to 'Show', note_path(note) %></td>
+  </tr>
+  <% end %>
+</table>
